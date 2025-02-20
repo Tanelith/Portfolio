@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="front.css" />
+</HEAD>
+<BODY>
+    <div class="topnav">
+        <a class="active" href="#Work">Work</a>
+        <a href="#About">About</a>
+        <a href="#games">Games</a>
+        <a href="#Other">Other projects</a>
+        <a href="#Thesis">Thesis</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="header">
+        <h1 id="nameHeader">Taneli Hiltunen</h1>
+        <p>
+            Bachelor of Engineering, Game Development <br />
+            I live in a Finnish metropolitan area.
+        </p>
+    </div>
+
+    <div id="games">
+        <div class="gallery-wrap">
+            <img class="arrow-left" src="images/prew-arrow.png" alt="Previous" onclick="previousImage()">
+            <div class="gallery-snowWar">
+                <div class="image-container">
+                    <span><img id="main-image" src="images/Start.png" alt="Start"></span>
+                    <img class="arrow-right" src="images/next-arrow.png" alt="Next" onclick="nextImage()">
+                </div>
+                <div class="snowWar-text">
+                    <h2 class="gamesHeaders">SnowWar 2D (2023)</h2>
+                    <p>
+                        This was my first game developing experience. I had to do my first game in a two and a half month sprint. I used Unity Engine
+                        as the game engine. <br />
+                        I made the characters, and snowballs myself and the other assets were downloaded from the Unity asset store.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="address">
+        <h1>Taneli Hiltunen</h1>
+        <p>
+            tanhiltunen@gmail.com <br />
+            LinkedIn: https://www.linkedin.com/in/taneli-hiltunen-8526a8233/
+        </p>
+    </div>
+
+    <script src="imagesource.js"></script>
+</BODY>
+</HTML>
