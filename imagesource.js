@@ -1,7 +1,8 @@
 const images = [
     "images/Start.png",
     "images/enemies.png",
-    "images/gameplay.png"
+    "images/gameplay.png",
+    "images/snowWarScript.png"
 ];
 
 let currentIndex = 0;
