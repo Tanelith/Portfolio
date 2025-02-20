@@ -10,8 +10,11 @@ body {
 }
 
 .topnav {
+    position: fixed;
     background-color: black;
     overflow: hidden;
+    z-index: 1000;
+    width: 100%;
 }
 
 .topnav a {
