@@ -2,6 +2,7 @@
     margin: 10px;
     padding: 10px;
     font-family: 'Poppins', 'sans-serif';
+    font-size: large;
 }
 
 body {
@@ -49,6 +50,13 @@ body {
     display: inline-block;
 }
 
+#main-image {
+    max-width: 748px;
+    max-height: 431px;
+    width: auto;
+    height: auto;
+}
+
 .arrow-left, .arrow-right {
     position: absolute;
     top: 50%;
@@ -77,6 +85,26 @@ body {
 
 .snowWar-text {
     margin-left: 10px;
+}
+
+.gallery-wrap2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.gallery-LostVessel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.LostVessel-text {
+    width: 40%;
+}
+.video-container {
+    width: 60%;
 }
 
 .address {
