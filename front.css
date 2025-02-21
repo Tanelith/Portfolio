@@ -107,7 +107,18 @@ body {
     width: 60%;
 }
 
+.LostVessel-link {
+    color: #444f9e;
+    font-family: cursive;
+    margin-left: -10px;
+}
+
 .address {
     margin-left: 200px;
     margin-top: 200px;
+}
+
+.LinkedIn-link {
+    color: #eee;
+    margin-left: -10px;
 }
