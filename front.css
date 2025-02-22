@@ -57,6 +57,13 @@ body {
     display: inline-block;
 }
 
+#main-content1 {
+    max-height: 431px;
+    max-width: 748px;
+    width: auto;
+    height: auto;
+}
+
 #main-image {
     max-width: 748px;
     max-height: 431px;
@@ -124,9 +131,16 @@ body {
     position: relative;
 }
 
-#main-image2 {
-    max-width: 748px;
-    max-height: 431px;
+#main-content2 {
+    max-width: 660px;
+    max-height: 380px;
+    width: auto;
+    height: auto;
+}
+
+#main-content2 img {
+    max-width: 100%;
+    max-height: 100%;
     width: auto;
     height: auto;
 }
